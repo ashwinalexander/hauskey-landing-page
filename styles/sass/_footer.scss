@@ -1,0 +1,16 @@
+footer {
+	background-color: $dark-color;
+
+	.back-to-top {
+		padding-bottom: 20px;
+		text-align: center;
+		a {
+			font-size: 1.4rem;
+			color: $light-color;
+			padding: 10px;
+			&:hover {
+				color: $accent-color;
+			}
+		}
+	}
+}

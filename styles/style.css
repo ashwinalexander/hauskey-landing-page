@@ -447,3 +447,22 @@ a:visited {
 li {
   border-radius: 5px;
 }
+
+footer {
+  background-color: #191919;
+}
+
+footer .back-to-top {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer .back-to-top a {
+  font-size: 1.4rem;
+  color: #ffffff;
+  padding: 10px;
+}
+
+footer .back-to-top a:hover {
+  color: #6dc251;
+}
