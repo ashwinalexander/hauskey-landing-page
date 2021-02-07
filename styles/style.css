@@ -346,7 +346,8 @@ html {
 .wrapper {
   max-width: 1200px;
   width: 100%;
-  margin: 0px auto;
+  margin: 5px auto;
+  border: 2px solid yellow;
 }
 
 img {
@@ -446,6 +447,91 @@ a:visited {
 
 li {
   border-radius: 5px;
+}
+
+header {
+  background-color: pink;
+}
+
+header .hero-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .hero-section a {
+  font-size: 2.5rem;
+  padding: 11px 20px;
+}
+
+header .hero-section .hero-banner {
+  width: 50%;
+}
+
+header .hero-section .hero-logo {
+  margin: 20px;
+  width: 15%;
+}
+
+header .hero-section .hero-subtitle {
+  padding: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+header .hero-section .hero-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .hero-section .hero-buttons .btn {
+  border-radius: 5px;
+  border: 3px solid #01142a;
+}
+
+header .hero-section .hero-buttons .btn a {
+  text-transform: lowercase;
+}
+
+header .hero-section .hero-buttons .btnWebsite {
+  border: 3px solid #01142a;
+  background-color: #01142a;
+}
+
+header .hero-section .hero-buttons .btnWebsite a {
+  color: #ffffff;
+}
+
+header .hero-section .hero-buttons .btnWebsite:hover {
+  background-color: #01142a;
+}
+
+header .hero-section .hero-buttons .btnWebsite:hover a {
+  color: #6dc251;
+}
+
+header .hero-section .hero-buttons .btnDownload {
+  background-color: #ffffff;
+}
+
+header .hero-section .hero-buttons .btnDownload a {
+  color: #01142a;
+}
+
+header .hero-section .hero-buttons .btnDownload:hover {
+  background-color: #6dc251;
 }
 
 footer {
