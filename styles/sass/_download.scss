@@ -1,0 +1,24 @@
+.download-app {
+	display: flex;
+	flex-direction: column;
+	background-color: $primary-color;
+	padding: 10px;
+
+	.download-title {
+		p {
+			color: $light-color;
+			text-align: center;
+		}
+	}
+
+	.download-buttons {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.download-button {
+			width: 20%;
+		}
+	}
+}

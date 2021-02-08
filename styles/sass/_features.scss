@@ -1,22 +1,26 @@
 .features {
 	display: grid;
-	align-items: center;
+	align-items: top;
 	grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-
+	gap: 5px;
 	margin: 20px auto;
+	h2,
+	p {
+		color: $dark-color;
+	}
 
 	.features-feature {
-		border: 2px solid red;
 		display: flex;
 		flex-direction: column;
 		padding: 10px;
 
 		div {
 			margin: 5px;
+			padding: 5px;
 		}
 
 		img {
-			border: 2px solid yellow;
+			border: 4px solid $accent-color;
 		}
 	}
 }
