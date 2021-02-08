@@ -1,0 +1,22 @@
+.features {
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+
+	margin: 20px auto;
+
+	.features-feature {
+		border: 2px solid red;
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+
+		div {
+			margin: 5px;
+		}
+
+		img {
+			border: 2px solid yellow;
+		}
+	}
+}
