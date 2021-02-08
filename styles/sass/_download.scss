@@ -5,6 +5,7 @@
 	padding: 10px;
 
 	.download-title {
+		padding: 20px;
 		p {
 			color: $light-color;
 			text-align: center;
@@ -19,6 +20,19 @@
 
 		.download-button {
 			width: 20%;
+		}
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.download-app {
+		.download-buttons {
+			justify-content: center;
+			align-items: center;
+
+			.download-button {
+				width: 45%;
+			}
 		}
 	}
 }

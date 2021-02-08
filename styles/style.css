@@ -625,7 +625,7 @@ footer .contact-footer .contact-address a:active,
 footer .contact-footer .contact-social a:hover,
 footer .contact-footer .contact-social a:focus,
 footer .contact-footer .contact-social a:active {
-  color: #6dc251;
+  color: #eeff03;
 }
 
 footer .contact-footer .contact-social .social-icons ul {
@@ -647,17 +647,34 @@ footer .contact-footer .contact-hours p {
 }
 
 footer .back-to-top {
+  padding-bottom: 30px;
   text-align: center;
 }
 
 footer .back-to-top a {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #ffffff;
   padding: 10px;
 }
 
 footer .back-to-top a:hover {
-  color: #6dc251;
+  color: #eeff03;
+}
+
+@media screen and (max-width: 690px) {
+  footer .contact-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .contact-footer .contact-address,
+  footer .contact-footer .contact-social {
+    width: 100%;
+  }
 }
 
 .download-app {
@@ -670,6 +687,10 @@ footer .back-to-top a:hover {
           flex-direction: column;
   background-color: #01142a;
   padding: 10px;
+}
+
+.download-app .download-title {
+  padding: 20px;
 }
 
 .download-app .download-title p {
@@ -694,4 +715,18 @@ footer .back-to-top a:hover {
 
 .download-app .download-buttons .download-button {
   width: 20%;
+}
+
+@media screen and (max-width: 690px) {
+  .download-app .download-buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .download-app .download-buttons .download-button {
+    width: 45%;
+  }
 }
