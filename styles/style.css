@@ -400,7 +400,6 @@ button {
 }
 
 h1 {
-  text-transform: lowercase;
   font-size: 3.5rem;
 }
 
@@ -411,7 +410,6 @@ h2 {
 
 h3 {
   font-size: 2.5rem;
-  text-transform: uppercase;
 }
 
 p {
@@ -424,7 +422,6 @@ button {
   font-size: 2.5rem;
   text-align: center;
   color: #01142a;
-  text-transform: uppercase;
   padding: 10px 20px;
   border: 4px solid transparent;
   background-color: #01142a;
@@ -503,10 +500,6 @@ header .hero-section .hero-buttons .btn {
   margin: 0px 15px;
 }
 
-header .hero-section .hero-buttons .btn a {
-  text-transform: lowercase;
-}
-
 header .hero-section .hero-buttons .btnWebsite {
   border: 3px solid #01142a;
   background-color: #01142a;
@@ -578,9 +571,6 @@ header .hero-section .hero-buttons .btnDownload:hover {
     border-radius: 5px;
     border: 3px solid #01142a;
     margin: 0px 10px;
-  }
-  header .hero-section .hero-buttons .btn a {
-    text-transform: lowercase;
   }
 }
 
@@ -656,7 +646,6 @@ footer .contact-footer .contact-social {
 footer .contact-footer .contact-address h3,
 footer .contact-footer .contact-social h3 {
   text-align: center;
-  text-transform: lowercase;
   font-weight: bolder;
   padding-bottom: 25px;
   color: #ffffff;
@@ -695,10 +684,6 @@ footer .contact-footer .contact-social .social-icons ul li {
 
 footer .contact-footer .contact-social i {
   font-size: 2.8rem;
-}
-
-footer .contact-footer .contact-hours p {
-  text-transform: lowercase;
 }
 
 footer .back-to-top {
