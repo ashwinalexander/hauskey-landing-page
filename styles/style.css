@@ -449,10 +449,6 @@ li {
   border-radius: 5px;
 }
 
-header {
-  background-color: pink;
-}
-
 header .hero-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -532,6 +528,18 @@ header .hero-section .hero-buttons .btnDownload a {
 
 header .hero-section .hero-buttons .btnDownload:hover {
   background-color: #6dc251;
+}
+
+.blurbs {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (minmax(310px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  background-color: green;
+  margin: 20px auto;
 }
 
 footer {
